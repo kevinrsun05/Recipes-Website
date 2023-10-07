@@ -1,0 +1,121 @@
+body, h1, h2, h3, h4, p, ul, ol, li {
+    margin: 0;
+    padding: 0;
+}
+
+/* Apply a background color to the body */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #ffe5b4; /* Light apricot color */
+    margin: 0;
+    padding: 0;
+}
+
+/* Style the header section */
+header {
+    text-align: center;
+    background-color: #ff9900; /* Bright orange color */
+    color: #fff;
+    padding: 20px 0;
+}
+
+header h1 {
+    font-size: 32px;
+    margin-bottom: 10px;
+}
+
+/* Style the main content section */
+main {
+    max-width: 800px;
+    margin: 20px auto;
+    background-color: #fff;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    border-radius: 5px;
+}
+
+/* Style the recipe images section */
+.recipe-images {
+    text-align: center;
+}
+
+.recipe-images img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 5px;
+    margin-bottom: 20px;
+}
+
+/* Style the recipe description section */
+.recipe-description {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.recipe-description h2 {
+    font-size: 24px;
+    color: #ff9900; /* Bright orange color */
+    margin-bottom: 10px;
+}
+
+.recipe-description p {
+    font-size: 16px;
+}
+
+/* Style the ingredients section */
+.recipe-ingredients {
+    margin-bottom: 20px;
+}
+
+.recipe-ingredients h3 {
+    font-size: 20px;
+    color: #ff9900; /* Bright orange color */
+    margin-bottom: 10px;
+}
+
+.recipe-ingredients ul {
+    list-style-type: disc;
+    margin-left: 20px;
+}
+
+.recipe-ingredients li {
+    font-size: 16px;
+    margin-bottom: 10px;
+}
+
+/* Style the directions section */
+.recipe-directions {
+    margin-bottom: 20px;
+}
+
+.recipe-directions h3 {
+    font-size: 20px;
+    color: #ff9900; /* Bright orange color */
+    margin-bottom: 10px;
+}
+
+.recipe-directions ol {
+    list-style-type: decimal;
+    margin-left: 20px;
+}
+
+.recipe-directions li {
+    font-size: 16px;
+    margin-bottom: 10px;
+}
+
+/* Style the footer section */
+footer {
+    text-align: center;
+    background-color: #ff9900; /* Bright orange color */
+    color: #fff;
+    padding: 10px 0;
+    font-size: 14px;
+}
+
+/* Responsive design for smaller screens */
+@media screen and (max-width: 600px) {
+    main {
+        padding: 10px;
+    }
+}

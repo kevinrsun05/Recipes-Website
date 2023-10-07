@@ -3,18 +3,16 @@ body, h1, h2, h3, h4, p, ul, ol, li {
     padding: 0;
 }
 
-/* Apply a background color to the body */
 body {
     font-family: Arial, sans-serif;
-    background-color: #ffe5b4; /* Light apricot color */
+    background-color: #ffe5b4;
     margin: 0;
     padding: 0;
 }
 
-/* Style the header section */
 header {
     text-align: center;
-    background-color: #ff9900; /* Bright orange color */
+    background-color: #ff9900;
     color: #fff;
     padding: 20px 0;
 }
@@ -24,7 +22,6 @@ header h1 {
     margin-bottom: 10px;
 }
 
-/* Style the main content section */
 main {
     max-width: 800px;
     margin: 20px auto;
@@ -34,7 +31,6 @@ main {
     border-radius: 5px;
 }
 
-/* Style the recipe images section */
 .recipe-images {
     text-align: center;
 }
@@ -46,7 +42,6 @@ main {
     margin-bottom: 20px;
 }
 
-/* Style the recipe description section */
 .recipe-description {
     text-align: center;
     margin-bottom: 20px;
@@ -54,7 +49,7 @@ main {
 
 .recipe-description h2 {
     font-size: 24px;
-    color: #ff9900; /* Bright orange color */
+    color: #ff9900; 
     margin-bottom: 10px;
 }
 
@@ -62,14 +57,13 @@ main {
     font-size: 16px;
 }
 
-/* Style the ingredients section */
 .recipe-ingredients {
     margin-bottom: 20px;
 }
 
 .recipe-ingredients h3 {
     font-size: 20px;
-    color: #ff9900; /* Bright orange color */
+    color: #ff9900;
     margin-bottom: 10px;
 }
 
@@ -83,14 +77,13 @@ main {
     margin-bottom: 10px;
 }
 
-/* Style the directions section */
 .recipe-directions {
     margin-bottom: 20px;
 }
 
 .recipe-directions h3 {
     font-size: 20px;
-    color: #ff9900; /* Bright orange color */
+    color: #ff9900; 
     margin-bottom: 10px;
 }
 
@@ -104,16 +97,14 @@ main {
     margin-bottom: 10px;
 }
 
-/* Style the footer section */
 footer {
     text-align: center;
-    background-color: #ff9900; /* Bright orange color */
+    background-color: #ff9900; 
     color: #fff;
     padding: 10px 0;
     font-size: 14px;
 }
 
-/* Responsive design for smaller screens */
 @media screen and (max-width: 600px) {
     main {
         padding: 10px;

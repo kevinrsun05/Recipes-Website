@@ -7,31 +7,37 @@
     <link rel="stylesheet" href="styles.css">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet">
 </head>
+
 <body>
-    <header>
-        <h1>BTS Inspired MUST TRY Recipes</h1>
-        <p>Discover delicious dishes loved by BTS</p>
+
+    <header class="header">
+        <div class="logo-section">
+            <a href="index.html" class="company-name">BangtanBites</a>
+            <img src="./Images/BTS_Logo.png" alt="BTS Logo" class="logo">
+        </div>
+        <nav class="nav">
+            <div class="dropdown">
+                <button class="btn btn-dropdown" id="dropdownButton">Recipes</button>
+                <div class="dropdown-content">
+                    <a href="#">Recipe 1</a>
+                    <a href="#">Recipe 2</a>
+                    <a href="#">Recipe 3</a>
+                </div>
+            </div>
+            <a href="#" class="btn">About Us</a>
+        </nav>
     </header>
 
-    <div class="row">
-        <div class="dropdown">
-            <button class="btn btn-secondary dropdown-toggle" id="dropdownMenuButton" type="button" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                Recipes
-            </button>
-            <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton">
-                <li><a class="dropdown-item" href="Recipes/Chicken-Broccoli-Alfredo/Chicken-Broccoli-Alfredo.html">Creamy Chicken and BTS Broccoli Alfredo</a></li>
-                <li><a class="dropdown-item" href="#">Second</a></li>
-                <li><a class="dropdown-item" href="#">Third</a></li>
-            </ul>
-        </div>
-    </div>
+    <section class="hero">
+        <p>Discover Delicious Dishes Loved By BTS</p>
+    </section>
     
     <main>
         <section class="recipe">
-            <img src="./Images/bts.png" height="400" width="600" alt="BTS">
+            <img src="./Images/bts.png" alt="BTS" class="recipe-image">
             <h2>Featured Recipes - Ongoing collection</h2>
             <p>Try these mouthwatering dishes inspired by BTS members.</p>
-            <a href="Recipes/Chicken-Broccoli-Alfredo/Chicken-Broccoli-Alfredo.html">Creamy Chicken and BTS Broccoli Alfredo</a>
+            <a href="Recipes/Chicken-Broccoli-Alfredo/Chicken-Broccoli-Alfredo.html" class="btn btn-recipe">Creamy Chicken and BTS Broccoli Alfredo</a>
         </section>
     </main>
     

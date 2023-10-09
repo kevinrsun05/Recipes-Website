@@ -1,10 +1,4 @@
-body, h1, h2, p {
-  margin: 0;
-  padding: 0;
-}
-
 body {
-  font-family: Arial, sans-serif;
   background-color: #f0f0f0;
 }
 
@@ -12,7 +6,7 @@ body {
 .header {
   display: flex;
   align-items: center;
-  color: #fff;
+  color: black;
   padding: 35px;
 }
 
@@ -21,39 +15,42 @@ body {
   align-items: center;
   background-color: #fff;
   margin-left: 50px;
+  color: green;
+  font-family: 'EB Garamond', serif;
 }
+
+/*#secondDropdownButton {
+  margin-right: 20px; 
+}*/
+
+/*.nav a {
+  margin-right: 20px;
+}*/
 
 /* BTS logo */
 .logo {
   width: 100px;
   height: 50px;
   margin-left: -50px;
+  margin-bottom: 15px;
 }
 
 /* Bangtan Bites */
 .company-name {
-  font-size: 24px; 
+  font-size: 36px; 
   font-weight: bold; 
   text-decoration: none;
   padding: 10px 20px; 
   border-radius: 5px; 
   transition: background-color 0.3s ease; 
-}
-
-.btn {
-  background-color: #007acc;
-  color: #fff;
-  border: none;
-  padding: 10px 20px;
-  cursor: pointer;
-  font-weight: 600;
-  font-size: 16px;
-  border-radius: 5px;
-  text-decoration: none; /* Remove underlines from links */
+  color: #007acc;
+  font-family: 'Pacifico', cursive;
 }
 
 .btn:hover {
-  background-color: #005e9c;
+  text-decoration: underline;
+  transition: font-size 0.5s ease; 
+  font-size: 20px;
 }
 
 .dropdown {
@@ -61,55 +58,52 @@ body {
   margin-right: 10px;
 }
 
-.btn-dropdown {
-  background-color: #007acc;
-  color: #fff;
-  border: none;
-  padding: 10px 20px;
-  cursor: pointer;
-  font-weight: 600;
-  font-size: 16px;
-  border-radius: 5px;
-}
-
 .dropdown-content {
   display: none;
   position: absolute;
-  background-color: #f9f9f9;
-  min-width: 160px;
+  background-color: #87CEFA;
   box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
   z-index: 1;
 }
 
 .dropdown-content a {
-  color: black;
+  color: white;
   padding: 12px 16px;
   text-decoration: none;
   display: block;
 }
 
 .dropdown-content a:hover {
-  background-color: #007acc;
-  color: #fff;
+  background-color: #B0E0E6;
 }
 
 .dropdown:hover .dropdown-content {
   display: block;
 }
 
+.arrow-down {
+  margin-left: 5px; 
+  font-size: 14px; 
+}
+
 .hero {
   text-align: center;
-  background-color: #007acc;
+  background-color: #87CEEB;
   color: #fff;
-  padding: 7px;
+  padding: 30px; 
+  font-size: 36px;
+  font-weight: bold; 
+  font-family: 'Montserrat', sans-serif;
+  text-transform: uppercase; 
 }
 
 .hero p {
-  font-size: 18px;
+  font-size: 20px; 
+  margin-top: 20px;
 }
 
 main {
-  max-width: 1000px;
+  max-width: 1200px;
   margin: 20px auto;
   padding: 20px;
   background-color: #fff;
@@ -122,15 +116,33 @@ main {
   margin-bottom: 30px;
 }
 
-.recipe-image {
-  max-width: 100%;
+.image-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  margin: 20px 0;
+}
+
+.btsHome {
+  max-width: 50%;
   height: auto;
   border-radius: 5px;
+  margin: 30px;
+}
+
+.KFCHome {
+  max-width: 35%; 
+  height: auto;
+  border-radius: 5px;
+  margin: 30px;
+
 }
 
 .recipe h2 {
   font-size: 28px;
   color: #007acc;
+  font-weight: bold;
 }
 
 .recipe p {
@@ -138,25 +150,10 @@ main {
   margin-top: 10px;
 }
 
-.btn-recipe {
-  display: inline-block;
-  padding: 10px 20px;
-  background-color: #007acc;
-  color: #fff;
-  text-decoration: none;
-  font-weight: bold;
-  border-radius: 5px;
-  margin-top: 10px;
-}
-
-.btn-recipe:hover {
-  background-color: #005e9c;
-}
-
 /* Footer styles */
 footer {
   text-align: center;
-  background-color: #007acc;
+  background-color: #3e7abf;
   color: #fff;
   padding: 10px 0;
   font-size: 14px;
